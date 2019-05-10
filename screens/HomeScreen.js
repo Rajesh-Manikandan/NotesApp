@@ -178,18 +178,21 @@ const styles = StyleSheet.create({
   },
   addButton: {
     position: "absolute",
-    backgroundColor: "#01CBC6",
+    backgroundColor: "rgb(255,255,255)",
     bottom: 20,
-    padding: 20,
+    padding: 5,
     borderRadius: 50,
-    alignItems: "center",
+    alignSelf: "center",
     width: 100,
-    height: 80,
+    height: 50,
     borderWidth: 1,
     borderColor: "rgba(0,0,0,0.2)",
     bottom: 10,
-    right: 10
+    alignItems: "center"
   },
-  addButtonText: {},
+  addButtonText: {
+    color: "#333",
+    fontSize: 15
+  },
   addButtonIcon: {}
 });
